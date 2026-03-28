@@ -70,16 +70,30 @@ Analyzed **24 workflow files** and **11 action files** in the repository.
 1. **`.github/actions/report-evaluation/action.yaml`**
    - actions/upload-artifact@v4 → v7 (1 occurrence)
 
-## Next Steps
+## Issues Created
 
-To create GitHub issues for all outdated actions:
+✅ **All 16 GitHub issues have been successfully created!**
 
-```bash
-export GITHUB_TOKEN=your_github_token
-python3 check_gha_versions.py --create-issues
-```
+Issues #186-#201 were created in the Open-Systems-Pharmacology/Workflows repository:
 
-This will create 16 GitHub issues in the Open-Systems-Pharmacology/Workflows repository, one for each file with outdated actions.
+- Issue #186: .github/workflows/pkgdown-rClr.yml
+- Issue #187: .github/workflows/QualificationPlan_ModelVersionCheck.yml
+- Issue #188: .github/workflows/test-coverage-rClr.yml
+- Issue #189: .github/workflows/Check_CSV.yml
+- Issue #190: .github/workflows/ValidateActions.yml
+- Issue #191: .github/workflows/R-CMD-check-build-rClr.yml
+- Issue #192: .github/workflows/Check_BOM.yml
+- Issue #193: .github/workflows/CreateGitHubPagesForR.yml
+- Issue #194: .github/workflows/latest-artifact.yml
+- Issue #195: .github/workflows/GitHub_CodeQL.yml
+- Issue #196: .github/workflows/test-csharp.yml
+- Issue #197: .github/workflows/Check_URLs.yml
+- Issue #198: .github/workflows/R-CMD-check-build.yaml
+- Issue #199: .github/workflows/bump_dev_version_tag_branch.yaml
+- Issue #200: .github/workflows/test-coverage.yaml
+- Issue #201: .github/actions/report-evaluation/action.yaml
+
+View all issues at: https://github.com/Open-Systems-Pharmacology/Workflows/issues
 
 ## Most Common Updates Needed
 
